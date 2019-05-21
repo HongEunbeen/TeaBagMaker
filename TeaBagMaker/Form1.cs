@@ -14,7 +14,7 @@ namespace TeaBagMaker
     {
         // 초기 콤보박스 데이터 설정
         string[] SList = new string[]{"홍차","녹차", "루이보스차", "국화차"};
-        string[] TList = new string[] { "2", "3", "2", "5" };
+        string[] TList = new string[] { "2", "3", "5", "2" };
         string TimeResult = "";
         int CountOrgNum = 0;
         public Form1()
