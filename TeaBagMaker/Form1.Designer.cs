@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button = new System.Windows.Forms.Button();
             this.Date = new System.Windows.Forms.Label();
             this.myName = new System.Windows.Forms.Label();
             this.Time = new System.Windows.Forms.Label();
+            this.Timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // comboBox1
@@ -77,8 +79,9 @@
             this.Time.AutoSize = true;
             this.Time.Location = new System.Drawing.Point(294, 115);
             this.Time.Name = "Time";
-            this.Time.Size = new System.Drawing.Size(0, 12);
+            this.Time.Size = new System.Drawing.Size(57, 12);
             this.Time.TabIndex = 4;
+            this.Time.Text = "남은 시간";
             // 
             // Form1
             // 
@@ -104,6 +107,7 @@
         private System.Windows.Forms.Label Date;
         private System.Windows.Forms.Label myName;
         private System.Windows.Forms.Label Time;
+        private System.Windows.Forms.Timer Timer;
     }
 }
 
