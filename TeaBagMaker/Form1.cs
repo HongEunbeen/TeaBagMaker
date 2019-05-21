@@ -62,8 +62,9 @@ namespace TeaBagMaker
             {
                 this.Timer.Enabled = false;
                 this.Time.Text = "";
-                MessageBox.Show("펑!", "알림",
+                MessageBox.Show("티백을 건지세요!", "알림",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
+               
             }
             else
             {
