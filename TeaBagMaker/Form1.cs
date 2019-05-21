@@ -25,9 +25,9 @@ namespace TeaBagMaker
             {
                 this.comboBox1.Items.Add(SList[i]);
             }
-            this.orgStr = this.Time.Text;
+            this.orgStr = this.Time.Text; 
 
-            if (SList.Count() > 0)
+            if (SList.Count() > 1)
             {
                 this.comboBox1.SelectedIndex = 0;
             }
